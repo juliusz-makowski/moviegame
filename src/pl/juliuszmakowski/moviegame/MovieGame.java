@@ -98,7 +98,7 @@ public class MovieGame {
     private static int hiddenTitleCreator(String yourTitle){
 
         int lettersInTitle = yourTitle.length();
-        System.out.println(lettersInTitle);
+
         int position;
 
         for (int i = 0; i < lettersInTitle; i++) {
